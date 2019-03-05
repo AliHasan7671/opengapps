@@ -84,6 +84,11 @@ speech"
 
 gappspico="calsync"
 
+gappscustom="calsync
+search
+speech
+dialergoogle"
+
 stockremove="browser
 camerastock
 dialerstock
@@ -155,6 +160,7 @@ get_supported_variants(){
     micro)          supported_variants="pico nano micro"; gappsremove_variant="super";;
     nano)           supported_variants="pico nano"; gappsremove_variant="super";;
     pico)           supported_variants="pico"; gappsremove_variant="super";;
+    custom)         supported_variants="custom"; gappsremove_variant="super";;
 
     tvstock)        supported_variants="tvstock"; gappsremove_variant="tvstock";;
 
